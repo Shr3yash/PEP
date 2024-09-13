@@ -35,4 +35,12 @@
     align-items: center;
     justify-content: center;
   }
-  
+    #saveButton {
+        background-color: green;
+        color: white;
+        border: none;
+    }
+
+    #saveButton:hover {
+        background-color: darkgreen;
+    }
