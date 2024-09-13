@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evalytics Dashboard</title>
+    <!-- Include Oracle JET CSS -->
+    <link rel="stylesheet" href="https://www.oracle.com/webfolder/technetwork/jet/css/jet-composites.css">
+    <!-- Include Your Custom CSS -->
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="oj-hybrid-padding">
+        <h1>Evalytics Dashboard</h1>
+        <div class="oj-flex oj-md-12 oj-flex-direction-row page-layout">
+            <!-- Left Column (1/3 for buttons) -->
+            <div class="oj-flex-item oj-md-4 card-1">
+                <oj-button chroming="callToAction" id="uploadButton" disabled="[[disableControls]]">
+                    Upload
+                </oj-button>
+                <oj-button chroming="callToAction" id="analyseButton" disabled="[[disableControls]]">
+                    Analyse
+                </oj-button>
+                <oj-button chroming="callToAction" id="viewButton" disabled="[[disableControls]]">
+                    View
+                </oj-button>
+                <oj-button chroming="callToAction" id="saveButton" disabled="[[disableControls]]">
+                    Save
+                </oj-button>
+                <oj-button chroming="callToAction" id="shareButton" disabled="[[disableControls]]">
+                    Share
+                </oj-button>
+            </div>
+            <!-- Right Column (2/3 for additional content) -->
+            <div class="oj-flex-item oj-md-8 card-1">
+                <h2>Additional Content</h2>
+                <p>This space can be used for reports, charts, or other data.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Include Oracle JET JavaScript -->
+    <script src="https://www.oracle.com/webfolder/technetwork/jet/js/libs/oj/v11.1.0/min/ojbootstrap.js"></script>
+    <!-- Include Your Custom JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>
