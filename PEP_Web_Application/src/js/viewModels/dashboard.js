@@ -6,22 +6,26 @@ define([
   "ojs/ojarraydataprovider",
   "ojs/ojknockout",
   "ojs/ojchart",
-  "text!../data/quarterDataDemo.json",  // Updated path to JSON file
-  // "jet-composites/demo-chart-orientation-control/loader"
+  "text!../data/quarterDataDemo.json",
+  // "ojs/ojknockout", "ojs/ojchart", "jet-composites/demo-chart-orientation-control/loader"
 ], function (require, exports, ko, ojbootstrap_1, ArrayDataProvider, quarterData) {
   "use strict";
   
   class DashboardViewModel {
       constructor() {
-          // Existing ViewModel properties and methods
           this.disableControls = ko.observable(false);
-
-          // Chart-related properties
           this.orientationValue = ko.observable('vertical');
-          // this.dataProvider = new ArrayDataProvider(JSON.parse(quarterData), {
-          //     keyAttributes: 'id'
-          // });
-      }
+          
+          try {
+            const parsedData = JSON.parse(quarterData);
+            this.dataProvider = new ArrayDataProvider(parsedData, {
+              keyAttributes: 'id'
+            });
+          } catch (error) {
+            console.error("Error parsing JSON data:", error);
+          }
+        }
+    
 
       connected() {
           ojbootstrap_1.whenDocumentReady().then(() => {
@@ -32,11 +36,9 @@ define([
       }
 
       disconnected() {
-          // Implement if needed
       }
 
       transitionCompleted() {
-          // Implement if needed
       }
 
       toggleButton() {

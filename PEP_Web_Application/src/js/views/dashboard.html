@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://www.oracle.com/webfolder/technetwork/jet/css/jet-composites.css">
     <link rel="stylesheet" href="css/dashboard.css">
     <script src="https://www.oracle.com/webfolder/technetwork/jet/js/libs/require/require.js"></script>
-</head>
+    <script src="https://www.oracle.com/webfolder/technetwork/jet/js/libs/oj/v11.1.0/min/ojbootstrap.js"></script>    
+  </head>
 <body>
     <div class="oj-hybrid-padding">
         <h1>Evalytics Dashboard</h1>
@@ -33,7 +34,7 @@
                   <oj-button chroming="callToAction" id="analyseButton" disabled="[[disableControls]]">
                     Analyse
                 </oj-button>
-                <oj-button chroming="callToAction" id="viewButton" disabled="[[disableControls]]">
+                <oj-button class="oj-button-md bggreen" id="viewButton" disabled="[[disableControls]]">
                     View
                 </oj-button>
                 <oj-button class="oj-button-md bggreen" id="saveButton" disabled="[[disableControls]]">
@@ -44,14 +45,39 @@
                 </oj-button>
                 </div>
             </div>
-            <!-- Right Column (2/3 for additional content) -->
+            <!-- Right Column (2/3 for chart) -->
             <div class="oj-flex-item oj-md-8 card-1">
-                <h2>Additional Content</h2>
-                <p>This space can be used for reports, charts, or other data.</p>
+                <h2>Chart/Graph Section</h2>
+                <div id="sampleDemo" class="demo-padding demo-container">
+                    <div id="componentDemoContent" style="width: 1px; min-width: 100%;">
+                        <div id="chart-container">
+                            <oj-chart
+                                id="lineChart"
+                                type="line"
+                                data="[[dataProvider]]"
+                                animation-on-display="auto"
+                                animation-on-data-change="auto"
+                                orientation="[[orientationValue]]"
+                                hover-behavior="dim">
+                                <template slot="itemTemplate" data-oj-as="item">
+                                    <oj-chart-item
+                                        value="[[item.data.value]]"
+                                        group-id="[[ [item.data.quarter] ]]"
+                                        series-id="[[item.data.series]]"></oj-chart-item>
+                                </template>
+                            </oj-chart>
+                            <!-- vertical/horizontal toggle button -->
+                            <demo-chart-orientation-control
+                                type="line"
+                                orientation="{{orientationValue}}"
+                                aria-controls="lineChart"></demo-chart-orientation-control>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <script src="https://www.oracle.com/webfolder/technetwork/jet/js/libs/oj/v11.1.0/min/ojbootstrap.js"></script>
-    <script src="js/app.js"></script>
+    <script src="../appController.js"></script>
 </body>
 </html>
