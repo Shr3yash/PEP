@@ -1,0 +1,12 @@
+
+DEFAULT_PROPERTY_SECTION = 'DEFAULT'
+PROPERTIES_FILE_PATH = '../application.properties'
+ERP_DATABASE_USERNAME = 'erp.database.username'
+ERP_DATABASE_PASSWORD = 'erp.database.password'
+ERP_DATABASE_HOST = 'erp.database.host'
+ERP_DATABASE_PORT = 'erp.database.port'
+ERP_DATABASE_NAME = 'erp.database.name'
+ERP_DATABASE_SID = 'erp.database.sid'
+ERP_DATABASE_DRIVER = 'erp.database.driver'
+ERP_DATABASE_TYPE = 'erp.database.type'
+ERP_DATABASE_DSN = 'erp.database.dsn'
