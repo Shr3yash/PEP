@@ -16,35 +16,78 @@
             <!-- Left Column (1/3 for buttons) -->
             <div class="oj-flex-item oj-md-4 card-1">
                 <div class="button-container">
-                    <oj-button chroming="callToAction" id="uploadButton" disabled="[[disableControls]]">
+                    <!-- <oj-button chroming="callToAction" id="uploadButton" disabled="[[disableControls]]">
                         Upload
-                    </oj-button>
-                    <oj-button chroming="callToAction" id="processButton" disabled="[[disableControls]]">
-                      Process Start
-                  </oj-button>
-                  <oj-button chroming="callToAction" id="endProcessButton" disabled="[[disableControls]]">
-                      Process End
-                  </oj-button>
-                  <oj-button chroming="callToAction" id="loadButton" disabled="[[disableControls]]">
-                      Load
-                  </oj-button>
+                    </oj-button> -->
+                    
+                  <!-- Custom File Input -->
+                  <div class="file-input-container">
+                    <button class="custom-file-button">Select File</button>
+                    <input type="file" id="fileInput" />
+                </div>
+                
+                <div class="oj-sm-margin-4x-vertical">
+                    <span>Selected file path:</span>
+                    <span>
+                        <oj-bind-text value="[[filePath]]"></oj-bind-text>
+                    </span>
+                </div>  
+                    <oj-input-text
+                    id="processInput"
+                    value="{{processInput}}"
+                    label-hint="Input for Process Start"
+                    label-edge="inside"></oj-input-text>
+                  <div class="oj-sm-margin-4x-vertical">
+                    <span>Current Process Start input:</span>
+                    <span>
+                      <oj-bind-text value="[[processInput]]"></oj-bind-text>
+                    </span>
+                  </div>
 
+                  <oj-input-text
+                    id="endProcessInput"
+                    value="{{endProcessInput}}"
+                    label-hint="Input for Process End"
+                    label-edge="inside"></oj-input-text>
+                  <div class="oj-sm-margin-4x-vertical">
+                    <span>Current Process End input:</span>
+                    <span>
+                      <oj-bind-text value="[[endProcessInput]]"></oj-bind-text>
+                    </span>
+                  </div>
+
+                  <oj-input-text
+                    id="loadInput"
+                    value="{{loadInput}}"
+                    label-hint="Input for Load"
+                    label-edge="inside"></oj-input-text>
+                  <div class="oj-sm-margin-4x-vertical">
+                    <span>Current Load input:</span>
+                    <span>
+                      <oj-bind-text value="[[loadInput]]"></oj-bind-text>
+                    </span>
+                  </div>
+         
                 </div>
-                <div class="oj-flex-item oj-md-4 card-1">
+
+
+                <div class="oj-flex-item oj-md-4 card-1" style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
                   <oj-button chroming="callToAction" id="analyseButton" disabled="[[disableControls]]">
-                    Analyse
-                </oj-button>
-                <oj-button class="oj-button-md bggreen" id="viewButton" disabled="[[disableControls]]">
-                    View
-                </oj-button>
-                <oj-button class="oj-button-md bggreen" id="saveButton" disabled="[[disableControls]]">
-                    Save
-                </oj-button>
-                <oj-button  class="oj-button-md bggreen" id="shareButton" disabled="[[disableControls]]">
-                    Share
-                </oj-button>
-                </div>
+                      Analyse
+                  </oj-button>
+                  <oj-button class="oj-button-md bggreen" id="viewButton" disabled="[[disableControls]]">
+                      View
+                  </oj-button>
+                  <oj-button class="oj-button-md bggreen" id="saveButton" disabled="[[disableControls]]">
+                      Save
+                  </oj-button>
+                  <oj-button class="oj-button-md bggreen" id="shareButton" disabled="[[disableControls]]">
+                      Share
+                  </oj-button>
+              </div>              
+      
             </div>
+            
             <!-- Right Column (2/3 for chart) -->
             <div class="oj-flex-item oj-md-8 card-1">
                 <h2>Chart/Graph Section</h2>

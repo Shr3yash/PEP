@@ -7,10 +7,16 @@ define([
   "ojs/ojchart",
   "text!../data/quarterDataDemo.json",
   "text!../quarterDataDemo.json",
+  "ojs/ojinputtext"
   // "text!../sample.txt",
   
 ], function (require, exports, ko, ojbootstrap_1, ArrayDataProvider, quarterData, sampleText) {
   function DashboardViewModel(context) {
+    this.processInput = ko.observable('');
+    this.endProcessInput = ko.observable('');
+    this.loadInput = ko.observable('');
+    this.filePath = ko.observable('');
+
     console.log("Sample text:", sampleText);
     if (sampleText) {
       try {
@@ -61,11 +67,21 @@ define([
 
     
 
-    this.connected = () => {
-      ojbootstrap_1.whenDocumentReady().then(() => {
-        document.title = "PEP Dashboard";
-      });
-    };
+ // Method to handle file selection
+ this.handleFileSelect = (event) => {
+  const file = event.target.files[0];
+  if (file) {
+    this.filePath(file.name); // Get the file name and set it to observable
+  }
+};
+
+this.connected = () => {
+  ojbootstrap_1.whenDocumentReady().then(() => {
+    document.title = "PEP Dashboard";
+    // Attach the file input event listener
+    document.getElementById('fileInput').addEventListener('change', this.handleFileSelect.bind(this));
+  });
+};
 
     this.disconnected = () => {
       // Implement any cleanup if necessary
