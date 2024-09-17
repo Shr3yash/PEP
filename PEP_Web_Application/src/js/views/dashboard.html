@@ -91,8 +91,22 @@
             <!-- Right Column (2/3 for chart) -->
             <div class="oj-flex-item oj-md-8 card-1">
                 <h2>Chart/Graph Section</h2>
-                <div id="sampleDemo" class="demo-padding demo-container">
-
+                  <div id="sampleDemo" class="demo-padding demo-container">
+                    <oj-chart
+                    id="lineChart"
+                    type="line"
+                    data="[[dataProvider]]"
+                    animation-on-display="auto"
+                    animation-on-data-change="auto"
+                    orientation="[[orientationValue]]"
+                    hover-behavior="dim">
+                    <template slot="itemTemplate" data-oj-as="item">
+                      <oj-chart-item
+                        value="[[item.data.value]]"
+                        group-id="[[ [item.data.quarter] ]]"
+                        series-id="[[item.data.series]]"></oj-chart-item>
+                    </template>
+                  </oj-chart>
                 </div>
             </div>
             <div class="oj-flex-item oj-md-4 card-1" style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
