@@ -1,4 +1,6 @@
 
+![image](https://github.com/user-attachments/assets/fc555f00-f4f5-4fb9-88d8-077bac2bf6ee)
+
 
 
 # PEP Web Application
@@ -113,3 +115,8 @@ For any questions or support, please reach out to the project maintainers throug
 ---
 
 Feel free to adjust any details or add any additional information relevant to the project or repository.
+
+---
+
+![image](https://github.com/user-attachments/assets/3ea25a91-3d4c-49b4-b337-3611c4b7a142) ©
+
