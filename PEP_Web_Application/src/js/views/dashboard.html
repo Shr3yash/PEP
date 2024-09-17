@@ -11,7 +11,7 @@
   </head>
 <body>
     <div class="oj-hybrid-padding">
-        <h1>Evalytics Dashboard</h1>
+        <h1>&nbsp;&nbsp;&nbsp;Evalytics Dashboard</h1>
         <div class="oj-flex oj-md-12 oj-flex-direction-row page-layout">
             <!-- Left Column (1/3 for buttons) -->
             <div class="oj-flex-item oj-md-4 card-1">
@@ -22,17 +22,17 @@
                     
                   <!-- Custom File Input -->
                   <div class="file-input-container">
-                    <button class="custom-file-button">Select File</button>
+                    <button class="custom-file-button">Select Folder</button>
                     <input type="file" id="fileInput" />
                 </div>
                 
                 <div class="oj-sm-margin-4x-vertical">
-                    <span>Selected file path:</span>
+                    <span>Selected folder path:</span>
                     <span>
                         <oj-bind-text value="[[filePath]]"></oj-bind-text>
                     </span>
                 </div>  
-                    <oj-input-text
+                    <!-- <oj-input-text
                     id="processInput"
                     value="{{processInput}}"
                     label-hint="Input for Process Start"
@@ -67,25 +67,18 @@
                       <oj-bind-text value="[[loadInput]]"></oj-bind-text>
                     </span>
                   </div>
-         
+          -->
+                    <oj-button chroming="callToAction" id="processStartButton" disabled="[[disableControls]]">
+                        Enter Process Start Time
+                    </oj-button>
+                    <oj-button chroming="callToAction" id="processEndButton" disabled="[[disableControls]]">
+                        Enter Process End Time
+                    </oj-button>
+                    <oj-button chroming="callToAction" id="loadButton" disabled="[[disableControls]]">
+                        Enter Load
+                    </oj-button>
+          
                 </div>
-
-
-                <div class="oj-flex-item oj-md-4 card-1" style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
-                  <oj-button chroming="callToAction" id="analyseButton" disabled="[[disableControls]]">
-                      Analyse
-                  </oj-button>
-                  <oj-button class="oj-button-md bggreen" id="viewButton" disabled="[[disableControls]]">
-                      View
-                  </oj-button>
-                  <oj-button class="oj-button-md bggreen" id="saveButton" disabled="[[disableControls]]">
-                      Save
-                  </oj-button>
-                  <oj-button class="oj-button-md bggreen" id="shareButton" disabled="[[disableControls]]">
-                      Share
-                  </oj-button>
-              </div>              
-      
             </div>
             
             <!-- Right Column (2/3 for chart) -->
@@ -95,6 +88,20 @@
 
                 </div>
             </div>
+            <div class="oj-flex-item oj-md-4 card-1" style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
+              <oj-button class="oj-button-md bggreen" id="analyseButton" disabled="[[disableControls]]">
+                  Analyse
+              </oj-button>
+              <oj-button class="oj-button-md bggreen" id="viewButton" disabled="[[disableControls]]">
+                  Predict
+              </oj-button>
+              <oj-button class="oj-button-md bggreen" id="saveButton" disabled="[[disableControls]]">
+                  Save
+              </oj-button>
+              <oj-button class="oj-button-md bggreen" id="shareButton" disabled="[[disableControls]]">
+                  Share
+              </oj-button>
+          </div>     
         </div>
     </div>
     <script src="https://www.oracle.com/webfolder/technetwork/jet/js/libs/oj/v11.1.0/min/ojbootstrap.js"></script>
