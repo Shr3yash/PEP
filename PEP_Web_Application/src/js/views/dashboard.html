@@ -49,35 +49,13 @@
             <div class="oj-flex-item oj-md-8 card-1">
                 <h2>Chart/Graph Section</h2>
                 <div id="sampleDemo" class="demo-padding demo-container">
-                    <div id="componentDemoContent" style="width: 1px; min-width: 100%;">
-                        <div id="chart-container">
-                            <oj-chart
-                                id="lineChart"
-                                type="line"
-                                data="[[dataProvider]]"
-                                animation-on-display="auto"
-                                animation-on-data-change="auto"
-                                orientation="[[orientationValue]]"
-                                hover-behavior="dim">
-                                <template slot="itemTemplate" data-oj-as="item">
-                                    <oj-chart-item
-                                        value="[[item.data.value]]"
-                                        group-id="[[ [item.data.quarter] ]]"
-                                        series-id="[[item.data.series]]"></oj-chart-item>
-                                </template>
-                            </oj-chart>
-                            <!-- vertical/horizontal toggle button -->
-                            <demo-chart-orientation-control
-                                type="line"
-                                orientation="{{orientationValue}}"
-                                aria-controls="lineChart"></demo-chart-orientation-control>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
     <script src="https://www.oracle.com/webfolder/technetwork/jet/js/libs/oj/v11.1.0/min/ojbootstrap.js"></script>
     <script src="../../js/appController.js"></script>
+    <script></script>
 </body>
 </html>
