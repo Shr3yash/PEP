@@ -68,15 +68,22 @@
                     </span>
                   </div>
           -->
-                    <oj-button chroming="callToAction" id="processStartButton" disabled="[[disableControls]]">
+                    <oj-button chroming="callToAction" id="processStartButton" disabled="[[disableControls]]" on-click="showProcessStartInput">
                         Enter Process Start Time
                     </oj-button>
-                    <oj-button chroming="callToAction" id="processEndButton" disabled="[[disableControls]]">
+                    <oj-button chroming="callToAction" id="processEndButton" disabled="[[disableControls]]" on-click="showProcessEndInput">
                         Enter Process End Time
                     </oj-button>
-                    <oj-button chroming="callToAction" id="loadButton" disabled="[[disableControls]]">
+                    <oj-button chroming="callToAction" id="loadButton" disabled="[[disableControls]]" on-click="showLoadInput">
                         Enter Load
                     </oj-button>
+
+                    <!-- Hidden Input Fields -->
+                    <div id="inputFields" style="display: none;">
+                        <oj-input-text id="processStartInput" value="{{processStartInput}}" label-hint="Process Start Time" label-edge="inside"></oj-input-text>
+                        <oj-input-text id="processEndInput" value="{{processEndInput}}" label-hint="Process End Time" label-edge="inside"></oj-input-text>
+                        <oj-input-text id="loadInput" value="{{loadInput}}" label-hint="Load" label-edge="inside"></oj-input-text>
+                    </div>
           
                 </div>
             </div>

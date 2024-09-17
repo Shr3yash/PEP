@@ -12,11 +12,26 @@ define([
   
 ], function (require, exports, ko, ojbootstrap_1, ArrayDataProvider, quarterData, sampleText) {
   function DashboardViewModel(context) {
-    this.processInput = ko.observable('');
-    this.endProcessInput = ko.observable('');
-    this.loadInput = ko.observable('');
     this.filePath = ko.observable('');
+    this.processStartInput = ko.observable('');
+    this.processEndInput = ko.observable('');
+    this.loadInput = ko.observable('');
 
+    // Function to show the input fields
+    this.showProcessStartInput = () => {
+        document.getElementById('inputFields').style.display = 'block';
+        document.getElementById('processStartInput').focus();
+    };
+
+    this.showProcessEndInput = () => {
+        document.getElementById('inputFields').style.display = 'block';
+        document.getElementById('processEndInput').focus();
+    };
+
+    this.showLoadInput = () => {
+        document.getElementById('inputFields').style.display = 'block';
+        document.getElementById('loadInput').focus();
+    };
     console.log("Sample text:", sampleText);
     if (sampleText) {
       try {
