@@ -1,0 +1,295 @@
+2024-09-18 12:32:14,922 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-18 12:32:14,923 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-09-18 12:32:14,927 INFO werkzeug MainThread :  * Restarting with stat
+2024-09-18 12:32:15,903 WARNING werkzeug MainThread :  * Debugger is active!
+2024-09-18 12:32:15,924 INFO werkzeug MainThread :  * Debugger PIN: 765-041-044
+2024-09-18 12:34:20,467 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-18 12:34:20,470 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-09-18 12:34:20,473 INFO werkzeug MainThread :  * Restarting with stat
+2024-09-18 12:34:21,353 WARNING werkzeug MainThread :  * Debugger is active!
+2024-09-18 12:34:21,367 INFO werkzeug MainThread :  * Debugger PIN: 765-041-044
+2024-09-18 12:41:40,547 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-18 12:41:40,548 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-09-18 12:41:40,550 INFO werkzeug MainThread :  * Restarting with stat
+2024-09-18 12:41:41,808 WARNING werkzeug MainThread :  * Debugger is active!
+2024-09-18 12:41:41,827 INFO werkzeug MainThread :  * Debugger PIN: 765-041-044
+2024-09-18 12:41:59,949 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:41:59] "GET /?ojr=create_ca HTTP/1.1" 200 -
+2024-09-18 12:42:00,548 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:42:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-18 12:42:14,416 DEBUG app Thread-4 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 12:42:14,420 DEBUG app Thread-4 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 12:42:14,420 DEBUG app Thread-4 (process_request_thread) : JobId: Process_Start1
+2024-09-18 12:42:14,420 DEBUG app Thread-4 (process_request_thread) : JobId: Process_End1
+2024-09-18 12:42:14,421 DEBUG app Thread-4 (process_request_thread) : 1000
+2024-09-18 12:42:14,457 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:42:14] "[35m[1mPOST /parse-logs HTTP/1.1[0m" 500 -
+2024-09-18 12:42:14,927 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:42:14] "GET /parse-logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-09-18 12:42:14,985 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:42:14] "GET /parse-logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-09-18 12:42:15,363 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:42:15] "GET /parse-logs?__debugger__=yes&cmd=resource&f=console.png&s=YMRoisfFEjQH4t2Gu2Uv HTTP/1.1" 200 -
+2024-09-18 12:42:15,614 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:42:15] "GET /parse-logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-09-18 12:45:55,729 DEBUG app Thread-10 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 12:45:55,730 DEBUG app Thread-10 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 12:45:55,730 DEBUG app Thread-10 (process_request_thread) : JobId: Process_Start1
+2024-09-18 12:45:55,730 DEBUG app Thread-10 (process_request_thread) : JobId: Process_End1
+2024-09-18 12:45:55,730 DEBUG app Thread-10 (process_request_thread) : 1000
+2024-09-18 12:45:55,781 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:45:55] "[35m[1mPOST /parse-logs HTTP/1.1[0m" 500 -
+2024-09-18 12:45:55,847 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:45:55] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-18 12:45:56,152 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:45:56] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-18 12:45:56,511 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:45:56] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=console.png&s=YMRoisfFEjQH4t2Gu2Uv HTTP/1.1[0m" 304 -
+2024-09-18 12:45:59,658 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:45:59] "GET /?ojr=create_ca HTTP/1.1" 200 -
+2024-09-18 12:46:01,532 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:46:01] "GET /?ojr=create_ca HTTP/1.1" 200 -
+2024-09-18 12:46:02,745 DEBUG app Thread-16 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 12:46:02,747 DEBUG app Thread-16 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 12:46:02,747 DEBUG app Thread-16 (process_request_thread) : JobId: Process_Start1
+2024-09-18 12:46:02,748 DEBUG app Thread-16 (process_request_thread) : JobId: Process_End1
+2024-09-18 12:46:02,748 DEBUG app Thread-16 (process_request_thread) : 1000
+2024-09-18 12:46:02,800 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:46:02] "[35m[1mPOST /parse-logs HTTP/1.1[0m" 500 -
+2024-09-18 12:46:03,052 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:46:03] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-18 12:46:03,201 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:46:03] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-18 12:46:03,559 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:46:03] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=console.png&s=YMRoisfFEjQH4t2Gu2Uv HTTP/1.1[0m" 304 -
+2024-09-18 12:52:45,033 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-18 12:52:45,033 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-09-18 12:52:45,037 INFO werkzeug MainThread :  * Restarting with stat
+2024-09-18 12:52:45,980 WARNING werkzeug MainThread :  * Debugger is active!
+2024-09-18 12:52:45,999 INFO werkzeug MainThread :  * Debugger PIN: 765-041-044
+2024-09-18 12:52:53,282 DEBUG app Thread-2 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 12:52:53,287 DEBUG app Thread-2 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 12:52:53,288 DEBUG app Thread-2 (process_request_thread) : JobId: Process_Start1
+2024-09-18 12:52:53,288 DEBUG app Thread-2 (process_request_thread) : JobId: Process_End1
+2024-09-18 12:52:53,288 DEBUG app Thread-2 (process_request_thread) : 1000
+2024-09-18 12:52:57,100 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 12:52:57,100 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 02:02:00
+2024-09-18 12:52:57,100 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 12:52:57,100 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 08:50:00
+2024-09-18 12:52:57,101 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:52:57,101 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:52:57,101 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:52:57,101 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:52:57,102 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 12:52:57,102 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 16:00:00
+2024-09-18 12:52:57,102 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 17:00:00
+2024-09-18 12:52:57,102 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 12:52:57,103 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 12:52:57,103 DEBUG app Thread-2 (process_request_thread) : [datetime.datetime(2024, 9, 11, 1, 0), datetime.datetime(2024, 9, 11, 7, 10), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 15, 0)]
+2024-09-18 12:52:57,103 DEBUG app Thread-2 (process_request_thread) : [datetime.datetime(2024, 9, 11, 2, 2), datetime.datetime(2024, 9, 11, 8, 50), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 16, 0), datetime.datetime(2024, 9, 11, 17, 0), datetime.datetime(2024, 9, 11, 18, 0), datetime.datetime(2024, 9, 11, 18, 0)]
+2024-09-18 12:52:57,103 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 1:02:00
+2024-09-18 12:52:57,103 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 01:00:00'), ('duration', 3720), ('id', 1)])
+2024-09-18 12:52:57,103 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 2: 1:40:00
+2024-09-18 12:52:57,105 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 07:10:00'), ('duration', 6000), ('id', 2)])
+2024-09-18 12:52:57,105 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 3: 1:00:00
+2024-09-18 12:52:57,105 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 13:00:00'), ('duration', 3600), ('id', 3)])
+2024-09-18 12:52:57,105 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 4: 3:00:00
+2024-09-18 12:52:57,105 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 13:00:00'), ('duration', 10800), ('id', 4)])
+2024-09-18 12:52:57,106 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 5: 3:00:00
+2024-09-18 12:52:57,106 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 14:00:00'), ('duration', 10800), ('id', 5)])
+2024-09-18 12:52:57,106 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 6: 3:00:00
+2024-09-18 12:52:57,106 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 15:00:00'), ('duration', 10800), ('id', 6)])
+2024-09-18 12:52:57,106 DEBUG app Thread-2 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file1.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-12-5257'}
+2024-09-18 12:52:57,106 DEBUG app Thread-2 (process_request_thread) : [{'timestamp': '2024-09-11 01:00:00', 'duration': 3720, 'id': 1}, {'timestamp': '2024-09-11 07:10:00', 'duration': 6000, 'id': 2}, {'timestamp': '2024-09-11 13:00:00', 'duration': 3600, 'id': 3}, {'timestamp': '2024-09-11 13:00:00', 'duration': 10800, 'id': 4}, {'timestamp': '2024-09-11 14:00:00', 'duration': 10800, 'id': 5}, {'timestamp': '2024-09-11 15:00:00', 'duration': 10800, 'id': 6}]
+2024-09-18 12:52:57,361 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:52:57] "GET / HTTP/1.1" 200 -
+2024-09-18 12:52:57,687 DEBUG app Thread-2 (process_request_thread) : 1
+2024-09-18 12:52:57,687 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 12:52:57,687 DEBUG app Thread-2 (process_request_thread) : 3720
+2024-09-18 12:52:57,688 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5257
+2024-09-18 12:52:57,974 DEBUG app Thread-2 (process_request_thread) : 2
+2024-09-18 12:52:57,974 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 12:52:57,974 DEBUG app Thread-2 (process_request_thread) : 6000
+2024-09-18 12:52:57,974 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5257
+2024-09-18 12:52:58,261 DEBUG app Thread-2 (process_request_thread) : 3
+2024-09-18 12:52:58,262 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:52:58,262 DEBUG app Thread-2 (process_request_thread) : 3600
+2024-09-18 12:52:58,262 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5257
+2024-09-18 12:52:58,552 DEBUG app Thread-2 (process_request_thread) : 4
+2024-09-18 12:52:58,552 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:52:58,552 DEBUG app Thread-2 (process_request_thread) : 10800
+2024-09-18 12:52:58,553 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5257
+2024-09-18 12:52:58,842 DEBUG app Thread-2 (process_request_thread) : 5
+2024-09-18 12:52:58,842 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:52:58,842 DEBUG app Thread-2 (process_request_thread) : 10800
+2024-09-18 12:52:58,842 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5257
+2024-09-18 12:52:59,128 DEBUG app Thread-2 (process_request_thread) : 6
+2024-09-18 12:52:59,128 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 12:52:59,128 DEBUG app Thread-2 (process_request_thread) : 10800
+2024-09-18 12:52:59,129 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5257
+2024-09-18 12:52:59,356 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:52:59] "GET / HTTP/1.1" 200 -
+2024-09-18 12:52:59,703 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:40:00
+2024-09-18 12:52:59,703 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:42:00
+2024-09-18 12:52:59,703 DEBUG app Thread-2 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 40)]
+2024-09-18 12:52:59,704 DEBUG app Thread-2 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 42)]
+2024-09-18 12:52:59,704 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 0:02:00
+2024-09-18 12:52:59,704 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 18:40:00'), ('duration', 120), ('id', 1)])
+2024-09-18 12:52:59,704 DEBUG app Thread-2 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file2.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-12-5259'}
+2024-09-18 12:52:59,704 DEBUG app Thread-2 (process_request_thread) : [{'timestamp': '2024-09-11 18:40:00', 'duration': 120, 'id': 1}]
+2024-09-18 12:53:00,279 DEBUG app Thread-2 (process_request_thread) : 1
+2024-09-18 12:53:00,280 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:40:00
+2024-09-18 12:53:00,280 DEBUG app Thread-2 (process_request_thread) : 120
+2024-09-18 12:53:00,280 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5259
+2024-09-18 12:53:00,855 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:56:00
+2024-09-18 12:53:00,855 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:57:00
+2024-09-18 12:53:00,856 DEBUG app Thread-2 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 56)]
+2024-09-18 12:53:00,856 DEBUG app Thread-2 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 57)]
+2024-09-18 12:53:00,856 DEBUG app Thread-2 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 0:01:00
+2024-09-18 12:53:00,856 DEBUG app Thread-2 (process_request_thread) : dict_items([('timestamp', '2024-09-11 18:56:00'), ('duration', 60), ('id', 1)])
+2024-09-18 12:53:00,856 DEBUG app Thread-2 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file3.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-12-5300'}
+2024-09-18 12:53:00,856 DEBUG app Thread-2 (process_request_thread) : [{'timestamp': '2024-09-11 18:56:00', 'duration': 60, 'id': 1}]
+2024-09-18 12:53:01,444 DEBUG app Thread-2 (process_request_thread) : 1
+2024-09-18 12:53:01,444 DEBUG app Thread-2 (process_request_thread) : 2024-09-11 18:56:00
+2024-09-18 12:53:01,444 DEBUG app Thread-2 (process_request_thread) : 60
+2024-09-18 12:53:01,444 DEBUG app Thread-2 (process_request_thread) : 2024-09-18-12-5300
+2024-09-18 12:53:02,023 DEBUG app Thread-2 (process_request_thread) : 3660.0
+2024-09-18 12:53:02,024 DEBUG app Thread-2 (process_request_thread) : ############# start Final Response ##########
+2024-09-18 12:53:02,025 DEBUG app Thread-2 (process_request_thread) : {'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'average_sequence_peak': 3660.0, 'time_metrics': 'seconds', 'collection': [{'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file1.log', 'sequence_peak': 10800, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 01:00:00', 'duration': 3720}, {'id': 2, 'time_stamp': '2024-09-11 07:10:00', 'duration': 6000}, {'id': 3, 'time_stamp': '2024-09-11 13:00:00', 'duration': 3600}, {'id': 4, 'time_stamp': '2024-09-11 13:00:00', 'duration': 10800}, {'id': 5, 'time_stamp': '2024-09-11 14:00:00', 'duration': 10800}, {'id': 6, 'time_stamp': '2024-09-11 15:00:00', 'duration': 10800}]}, {'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file2.log', 'sequence_peak': 120, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 18:40:00', 'duration': 120}]}, {'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file3.log', 'sequence_peak': 60, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 18:56:00', 'duration': 60}]}]}
+2024-09-18 12:53:02,025 DEBUG app Thread-2 (process_request_thread) : ############# end Final Response ##########
+2024-09-18 12:53:02,416 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:53:02] "POST /parse-logs HTTP/1.1" 200 -
+2024-09-18 12:53:02,863 DEBUG app Thread-5 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 12:53:02,863 DEBUG app Thread-5 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 12:53:02,865 DEBUG app Thread-5 (process_request_thread) : JobId: Process_Start1
+2024-09-18 12:53:02,865 DEBUG app Thread-5 (process_request_thread) : JobId: Process_End1
+2024-09-18 12:53:02,865 DEBUG app Thread-5 (process_request_thread) : 1000
+2024-09-18 12:53:05,226 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 12:53:05,226 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 02:02:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 08:50:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 16:00:00
+2024-09-18 12:53:05,227 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 17:00:00
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 1, 0), datetime.datetime(2024, 9, 11, 7, 10), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 15, 0)]
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 2, 2), datetime.datetime(2024, 9, 11, 8, 50), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 16, 0), datetime.datetime(2024, 9, 11, 17, 0), datetime.datetime(2024, 9, 11, 18, 0), datetime.datetime(2024, 9, 11, 18, 0)]
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 1:02:00
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 01:00:00'), ('duration', 3720), ('id', 1)])
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 2: 1:40:00
+2024-09-18 12:53:05,228 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 07:10:00'), ('duration', 6000), ('id', 2)])
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 3: 1:00:00
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 13:00:00'), ('duration', 3600), ('id', 3)])
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 4: 3:00:00
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 13:00:00'), ('duration', 10800), ('id', 4)])
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 5: 3:00:00
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 14:00:00'), ('duration', 10800), ('id', 5)])
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 6: 3:00:00
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 15:00:00'), ('duration', 10800), ('id', 6)])
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file1.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-12-5305'}
+2024-09-18 12:53:05,229 DEBUG app Thread-5 (process_request_thread) : [{'timestamp': '2024-09-11 01:00:00', 'duration': 3720, 'id': 1}, {'timestamp': '2024-09-11 07:10:00', 'duration': 6000, 'id': 2}, {'timestamp': '2024-09-11 13:00:00', 'duration': 3600, 'id': 3}, {'timestamp': '2024-09-11 13:00:00', 'duration': 10800, 'id': 4}, {'timestamp': '2024-09-11 14:00:00', 'duration': 10800, 'id': 5}, {'timestamp': '2024-09-11 15:00:00', 'duration': 10800, 'id': 6}]
+2024-09-18 12:53:05,807 DEBUG app Thread-5 (process_request_thread) : 1
+2024-09-18 12:53:05,807 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 12:53:05,807 DEBUG app Thread-5 (process_request_thread) : 3720
+2024-09-18 12:53:05,808 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5305
+2024-09-18 12:53:06,095 DEBUG app Thread-5 (process_request_thread) : 2
+2024-09-18 12:53:06,096 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 12:53:06,096 DEBUG app Thread-5 (process_request_thread) : 6000
+2024-09-18 12:53:06,096 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5305
+2024-09-18 12:53:06,383 DEBUG app Thread-5 (process_request_thread) : 3
+2024-09-18 12:53:06,383 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:53:06,383 DEBUG app Thread-5 (process_request_thread) : 3600
+2024-09-18 12:53:06,383 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5305
+2024-09-18 12:53:06,673 DEBUG app Thread-5 (process_request_thread) : 4
+2024-09-18 12:53:06,673 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:53:06,673 DEBUG app Thread-5 (process_request_thread) : 10800
+2024-09-18 12:53:06,673 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5305
+2024-09-18 12:53:06,963 DEBUG app Thread-5 (process_request_thread) : 5
+2024-09-18 12:53:06,965 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:53:06,965 DEBUG app Thread-5 (process_request_thread) : 10800
+2024-09-18 12:53:06,965 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5305
+2024-09-18 12:53:07,264 DEBUG app Thread-5 (process_request_thread) : 6
+2024-09-18 12:53:07,264 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 12:53:07,265 DEBUG app Thread-5 (process_request_thread) : 10800
+2024-09-18 12:53:07,265 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5305
+2024-09-18 12:53:07,838 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:40:00
+2024-09-18 12:53:07,839 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:42:00
+2024-09-18 12:53:07,839 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 40)]
+2024-09-18 12:53:07,840 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 42)]
+2024-09-18 12:53:07,840 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 0:02:00
+2024-09-18 12:53:07,840 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 18:40:00'), ('duration', 120), ('id', 1)])
+2024-09-18 12:53:07,840 DEBUG app Thread-5 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file2.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-12-5307'}
+2024-09-18 12:53:07,840 DEBUG app Thread-5 (process_request_thread) : [{'timestamp': '2024-09-11 18:40:00', 'duration': 120, 'id': 1}]
+2024-09-18 12:53:08,414 DEBUG app Thread-5 (process_request_thread) : 1
+2024-09-18 12:53:08,415 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:40:00
+2024-09-18 12:53:08,415 DEBUG app Thread-5 (process_request_thread) : 120
+2024-09-18 12:53:08,415 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5307
+2024-09-18 12:53:08,992 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:56:00
+2024-09-18 12:53:08,992 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:57:00
+2024-09-18 12:53:08,992 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 56)]
+2024-09-18 12:53:08,993 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 57)]
+2024-09-18 12:53:08,993 DEBUG app Thread-5 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 0:01:00
+2024-09-18 12:53:08,993 DEBUG app Thread-5 (process_request_thread) : dict_items([('timestamp', '2024-09-11 18:56:00'), ('duration', 60), ('id', 1)])
+2024-09-18 12:53:08,993 DEBUG app Thread-5 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file3.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-12-5308'}
+2024-09-18 12:53:08,993 DEBUG app Thread-5 (process_request_thread) : [{'timestamp': '2024-09-11 18:56:00', 'duration': 60, 'id': 1}]
+2024-09-18 12:53:09,576 DEBUG app Thread-5 (process_request_thread) : 1
+2024-09-18 12:53:09,577 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:56:00
+2024-09-18 12:53:09,577 DEBUG app Thread-5 (process_request_thread) : 60
+2024-09-18 12:53:09,577 DEBUG app Thread-5 (process_request_thread) : 2024-09-18-12-5308
+2024-09-18 12:53:10,154 DEBUG app Thread-5 (process_request_thread) : 3660.0
+2024-09-18 12:53:10,156 DEBUG app Thread-5 (process_request_thread) : ############# start Final Response ##########
+2024-09-18 12:53:10,157 DEBUG app Thread-5 (process_request_thread) : {'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'average_sequence_peak': 3660.0, 'time_metrics': 'seconds', 'collection': [{'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file1.log', 'sequence_peak': 10800, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 01:00:00', 'duration': 3720}, {'id': 2, 'time_stamp': '2024-09-11 07:10:00', 'duration': 6000}, {'id': 3, 'time_stamp': '2024-09-11 13:00:00', 'duration': 3600}, {'id': 4, 'time_stamp': '2024-09-11 13:00:00', 'duration': 10800}, {'id': 5, 'time_stamp': '2024-09-11 14:00:00', 'duration': 10800}, {'id': 6, 'time_stamp': '2024-09-11 15:00:00', 'duration': 10800}]}, {'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file2.log', 'sequence_peak': 120, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 18:40:00', 'duration': 120}]}, {'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file3.log', 'sequence_peak': 60, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 18:56:00', 'duration': 60}]}]}
+2024-09-18 12:53:10,157 DEBUG app Thread-5 (process_request_thread) : ############# end Final Response ##########
+2024-09-18 12:53:10,548 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:53:10] "POST /parse-logs HTTP/1.1" 200 -
+2024-09-18 12:59:25,185 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-18 12:59:25,185 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-09-18 12:59:25,189 INFO werkzeug MainThread :  * Restarting with stat
+2024-09-18 12:59:26,064 WARNING werkzeug MainThread :  * Debugger is active!
+2024-09-18 12:59:26,079 INFO werkzeug MainThread :  * Debugger PIN: 765-041-044
+2024-09-18 12:59:31,674 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:31] "GET / HTTP/1.1" 200 -
+2024-09-18 12:59:32,789 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:32] "GET / HTTP/1.1" 200 -
+2024-09-18 12:59:33,193 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:33] "GET / HTTP/1.1" 200 -
+2024-09-18 12:59:36,489 DEBUG app Thread-5 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 12:59:36,495 DEBUG app Thread-5 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 12:59:36,495 DEBUG app Thread-5 (process_request_thread) : JobId: Process_Start1
+2024-09-18 12:59:36,495 DEBUG app Thread-5 (process_request_thread) : JobId: Process_End1
+2024-09-18 12:59:36,496 DEBUG app Thread-5 (process_request_thread) : 1000
+2024-09-18 12:59:40,100 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 12:59:40,100 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 02:02:00
+2024-09-18 12:59:40,101 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 12:59:40,101 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 08:50:00
+2024-09-18 12:59:40,101 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:59:40,101 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:59:40,101 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 12:59:40,101 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 12:59:40,101 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 12:59:40,103 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 16:00:00
+2024-09-18 12:59:40,103 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 17:00:00
+2024-09-18 12:59:40,103 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 12:59:40,103 DEBUG app Thread-5 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 12:59:40,104 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 1, 0), datetime.datetime(2024, 9, 11, 7, 10), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 15, 0)]
+2024-09-18 12:59:40,104 DEBUG app Thread-5 (process_request_thread) : [datetime.datetime(2024, 9, 11, 2, 2), datetime.datetime(2024, 9, 11, 8, 50), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 16, 0), datetime.datetime(2024, 9, 11, 17, 0), datetime.datetime(2024, 9, 11, 18, 0), datetime.datetime(2024, 9, 11, 18, 0)]
+2024-09-18 12:59:40,535 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:40] "[35m[1mPOST /parse-logs HTTP/1.1[0m" 500 -
+2024-09-18 12:59:40,770 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:40] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-18 12:59:40,906 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:40] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-18 12:59:41,260 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:41] "GET /parse-logs?__debugger__=yes&cmd=resource&f=console.png&s=3TODHZHKZbur3GdCmdw3 HTTP/1.1" 200 -
+2024-09-18 12:59:41,514 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 12:59:41] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-18 13:02:01,905 DEBUG app Thread-11 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 13:02:01,908 DEBUG app Thread-11 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 13:02:01,908 DEBUG app Thread-11 (process_request_thread) : JobId: Process_Start1
+2024-09-18 13:02:01,908 DEBUG app Thread-11 (process_request_thread) : JobId: Process_End1
+2024-09-18 13:02:01,909 DEBUG app Thread-11 (process_request_thread) : 1000
+2024-09-18 13:02:04,333 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 13:02:04,333 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 02:02:00
+2024-09-18 13:02:04,334 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 13:02:04,334 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 08:50:00
+2024-09-18 13:02:04,334 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 13:02:04,335 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 13:02:04,335 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 13:02:04,335 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 13:02:04,335 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 13:02:04,335 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 16:00:00
+2024-09-18 13:02:04,335 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 17:00:00
+2024-09-18 13:02:04,336 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 13:02:04,336 DEBUG app Thread-11 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 13:02:04,336 DEBUG app Thread-11 (process_request_thread) : [datetime.datetime(2024, 9, 11, 1, 0), datetime.datetime(2024, 9, 11, 7, 10), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 15, 0)]
+2024-09-18 13:02:04,336 DEBUG app Thread-11 (process_request_thread) : [datetime.datetime(2024, 9, 11, 2, 2), datetime.datetime(2024, 9, 11, 8, 50), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 16, 0), datetime.datetime(2024, 9, 11, 17, 0), datetime.datetime(2024, 9, 11, 18, 0), datetime.datetime(2024, 9, 11, 18, 0)]
+2024-09-18 13:02:04,746 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 13:02:04] "[35m[1mPOST /parse-logs HTTP/1.1[0m" 500 -
+2024-09-18 13:02:04,785 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 13:02:04] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-09-18 13:02:04,788 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 13:02:04] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-09-18 13:02:05,127 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 13:02:05] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=console.png&s=3TODHZHKZbur3GdCmdw3 HTTP/1.1[0m" 304 -
+2024-09-18 13:02:05,379 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 13:02:05] "[36mGET /parse-logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-09-18 13:20:10,567 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\src\\service.py', reloading
+2024-09-18 13:20:10,642 INFO werkzeug MainThread :  * Restarting with stat
+2024-09-18 13:20:11,105 WARNING werkzeug MainThread :  * Debugger is active!
+2024-09-18 13:20:11,112 INFO werkzeug MainThread :  * Debugger PIN: 765-041-044

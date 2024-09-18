@@ -24,13 +24,12 @@ def measure_app_performance_from_logs():
     end_indicator = request.form['processEnd']
     load = request.form['load']
     #file_paths = file_paths.split(';')
-    file_paths = ['E:\\TLC\\pep\\file1.log',
-                  'E:\\TLC\\pep\\file2.log',
-                  'E:\\TLC\\pep\\file3.log',
-                  'E:\\TLC\\pep\\file4.log']
+    file_paths = ['C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file1.log',
+                  'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file2.log',
+                  'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file3.log']
 
     return parse_logs(file_paths, start_indicator, end_indicator, int(load), app.logger)
-
+\
 
 @app.route("/get-parsed-logs", methods=["GET"])
 def fetch_parsed_logs():

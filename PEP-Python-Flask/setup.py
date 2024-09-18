@@ -3,7 +3,7 @@ from setuptools import setup
 
 install_requires = [
     'SQLAlchemy==1.3.17',
-    'pyodbc==4.0.30', # for MSSQL DB
+    #'pyodbc==4.0.30', # for MSSQL DB
     'cx-Oracle==8.3.0', # for oracle DB
     'Flask'
 ]
