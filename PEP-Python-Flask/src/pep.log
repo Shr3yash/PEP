@@ -293,3 +293,91 @@
 2024-09-18 13:20:10,642 INFO werkzeug MainThread :  * Restarting with stat
 2024-09-18 13:20:11,105 WARNING werkzeug MainThread :  * Debugger is active!
 2024-09-18 13:20:11,112 INFO werkzeug MainThread :  * Debugger PIN: 765-041-044
+2024-09-18 13:43:16,616 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 13:43:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-18 13:43:18,612 DEBUG app Thread-3 (process_request_thread) : <Request 'http://localhost:5000/parse-logs' [POST]>
+2024-09-18 13:43:18,617 DEBUG app Thread-3 (process_request_thread) : E:\TLC\New folder\file1.log
+2024-09-18 13:43:18,617 DEBUG app Thread-3 (process_request_thread) : JobId: Process_Start1
+2024-09-18 13:43:18,617 DEBUG app Thread-3 (process_request_thread) : JobId: Process_End1
+2024-09-18 13:43:18,617 DEBUG app Thread-3 (process_request_thread) : 1000
+2024-09-18 13:43:21,843 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 13:43:21,843 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 02:02:00
+2024-09-18 13:43:21,843 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 13:43:21,843 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 08:50:00
+2024-09-18 13:43:21,843 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 13:43:21,843 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 16:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 17:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:00:00
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : [datetime.datetime(2024, 9, 11, 1, 0), datetime.datetime(2024, 9, 11, 7, 10), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 13, 0), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 15, 0)]
+2024-09-18 13:43:21,845 DEBUG app Thread-3 (process_request_thread) : [datetime.datetime(2024, 9, 11, 2, 2), datetime.datetime(2024, 9, 11, 8, 50), datetime.datetime(2024, 9, 11, 14, 0), datetime.datetime(2024, 9, 11, 16, 0), datetime.datetime(2024, 9, 11, 17, 0), datetime.datetime(2024, 9, 11, 18, 0), datetime.datetime(2024, 9, 11, 18, 0)]
+2024-09-18 13:43:21,846 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 1:02:00
+2024-09-18 13:43:21,846 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 01:00:00'), ('duration', 3720), ('id', 1)])
+2024-09-18 13:43:21,846 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 2: 1:40:00
+2024-09-18 13:43:21,846 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 07:10:00'), ('duration', 6000), ('id', 2)])
+2024-09-18 13:43:21,846 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 3: 1:00:00
+2024-09-18 13:43:21,846 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 13:00:00'), ('duration', 3600), ('id', 3)])
+2024-09-18 13:43:21,846 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 4: 3:00:00
+2024-09-18 13:43:21,847 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 13:00:00'), ('duration', 10800), ('id', 4)])
+2024-09-18 13:43:21,847 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 5: 3:00:00
+2024-09-18 13:43:21,847 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 14:00:00'), ('duration', 10800), ('id', 5)])
+2024-09-18 13:43:21,847 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 6: 3:00:00
+2024-09-18 13:43:21,847 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 15:00:00'), ('duration', 10800), ('id', 6)])
+2024-09-18 13:43:21,847 DEBUG app Thread-3 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file1.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-13-4321'}
+2024-09-18 13:43:21,847 DEBUG app Thread-3 (process_request_thread) : [{'timestamp': '2024-09-11 01:00:00', 'duration': 3720, 'id': 1}, {'timestamp': '2024-09-11 07:10:00', 'duration': 6000, 'id': 2}, {'timestamp': '2024-09-11 13:00:00', 'duration': 3600, 'id': 3}, {'timestamp': '2024-09-11 13:00:00', 'duration': 10800, 'id': 4}, {'timestamp': '2024-09-11 14:00:00', 'duration': 10800, 'id': 5}, {'timestamp': '2024-09-11 15:00:00', 'duration': 10800, 'id': 6}]
+2024-09-18 13:43:22,420 DEBUG app Thread-3 (process_request_thread) : 1
+2024-09-18 13:43:22,420 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 01:00:00
+2024-09-18 13:43:22,421 DEBUG app Thread-3 (process_request_thread) : 3720
+2024-09-18 13:43:22,421 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4321
+2024-09-18 13:43:22,709 DEBUG app Thread-3 (process_request_thread) : 2
+2024-09-18 13:43:22,710 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 07:10:00
+2024-09-18 13:43:22,710 DEBUG app Thread-3 (process_request_thread) : 6000
+2024-09-18 13:43:22,710 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4321
+2024-09-18 13:43:22,999 DEBUG app Thread-3 (process_request_thread) : 3
+2024-09-18 13:43:22,999 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 13:43:22,999 DEBUG app Thread-3 (process_request_thread) : 3600
+2024-09-18 13:43:22,999 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4321
+2024-09-18 13:43:23,296 DEBUG app Thread-3 (process_request_thread) : 4
+2024-09-18 13:43:23,296 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 13:00:00
+2024-09-18 13:43:23,296 DEBUG app Thread-3 (process_request_thread) : 10800
+2024-09-18 13:43:23,296 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4321
+2024-09-18 13:43:23,585 DEBUG app Thread-3 (process_request_thread) : 5
+2024-09-18 13:43:23,585 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 14:00:00
+2024-09-18 13:43:23,585 DEBUG app Thread-3 (process_request_thread) : 10800
+2024-09-18 13:43:23,585 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4321
+2024-09-18 13:43:23,872 DEBUG app Thread-3 (process_request_thread) : 6
+2024-09-18 13:43:23,872 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 15:00:00
+2024-09-18 13:43:23,872 DEBUG app Thread-3 (process_request_thread) : 10800
+2024-09-18 13:43:23,873 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4321
+2024-09-18 13:43:24,446 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:40:00
+2024-09-18 13:43:24,446 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:42:00
+2024-09-18 13:43:24,446 DEBUG app Thread-3 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 40)]
+2024-09-18 13:43:24,446 DEBUG app Thread-3 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 42)]
+2024-09-18 13:43:24,446 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 0:02:00
+2024-09-18 13:43:24,446 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 18:40:00'), ('duration', 120), ('id', 1)])
+2024-09-18 13:43:24,447 DEBUG app Thread-3 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file2.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-13-4324'}
+2024-09-18 13:43:24,447 DEBUG app Thread-3 (process_request_thread) : [{'timestamp': '2024-09-11 18:40:00', 'duration': 120, 'id': 1}]
+2024-09-18 13:43:25,022 DEBUG app Thread-3 (process_request_thread) : 1
+2024-09-18 13:43:25,022 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:40:00
+2024-09-18 13:43:25,022 DEBUG app Thread-3 (process_request_thread) : 120
+2024-09-18 13:43:25,022 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4324
+2024-09-18 13:43:25,612 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:56:00
+2024-09-18 13:43:25,613 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:57:00
+2024-09-18 13:43:25,613 DEBUG app Thread-3 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 56)]
+2024-09-18 13:43:25,613 DEBUG app Thread-3 (process_request_thread) : [datetime.datetime(2024, 9, 11, 18, 57)]
+2024-09-18 13:43:25,613 DEBUG app Thread-3 (process_request_thread) : Time difference for Process_Start1 and Process_End1 instance 1: 0:01:00
+2024-09-18 13:43:25,613 DEBUG app Thread-3 (process_request_thread) : dict_items([('timestamp', '2024-09-11 18:56:00'), ('duration', 60), ('id', 1)])
+2024-09-18 13:43:25,614 DEBUG app Thread-3 (process_request_thread) : {'file_paths': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file3.log', 'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'p_id': '2024-09-18-13-4325'}
+2024-09-18 13:43:25,614 DEBUG app Thread-3 (process_request_thread) : [{'timestamp': '2024-09-11 18:56:00', 'duration': 60, 'id': 1}]
+2024-09-18 13:43:26,194 DEBUG app Thread-3 (process_request_thread) : 1
+2024-09-18 13:43:26,194 DEBUG app Thread-3 (process_request_thread) : 2024-09-11 18:56:00
+2024-09-18 13:43:26,195 DEBUG app Thread-3 (process_request_thread) : 60
+2024-09-18 13:43:26,195 DEBUG app Thread-3 (process_request_thread) : 2024-09-18-13-4325
+2024-09-18 13:43:26,784 DEBUG app Thread-3 (process_request_thread) : 3660.0
+2024-09-18 13:43:26,786 DEBUG app Thread-3 (process_request_thread) : ############# start Final Response ##########
+2024-09-18 13:43:26,787 DEBUG app Thread-3 (process_request_thread) : {'start_indicator': 'JobId: Process_Start1', 'end_indicator': 'JobId: Process_End1', 'load': 1000, 'average_sequence_peak': 3660.0, 'time_metrics': 'seconds', 'collection': [{'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file1.log', 'sequence_peak': 10800, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 01:00:00', 'duration': 3720}, {'id': 2, 'time_stamp': '2024-09-11 07:10:00', 'duration': 6000}, {'id': 3, 'time_stamp': '2024-09-11 13:00:00', 'duration': 3600}, {'id': 4, 'time_stamp': '2024-09-11 13:00:00', 'duration': 10800}, {'id': 5, 'time_stamp': '2024-09-11 14:00:00', 'duration': 10800}, {'id': 6, 'time_stamp': '2024-09-11 15:00:00', 'duration': 10800}]}, {'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file2.log', 'sequence_peak': 120, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 18:40:00', 'duration': 120}]}, {'file_location': 'C:\\Users\\Shreyash\\Desktop\\PEP\\PEP-Python-Flask\\Resources\\file3.log', 'sequence_peak': 60, 'parsed_data': [{'id': 1, 'time_stamp': '2024-09-11 18:56:00', 'duration': 60}]}]}
+2024-09-18 13:43:26,787 DEBUG app Thread-3 (process_request_thread) : ############# end Final Response ##########
+2024-09-18 13:43:27,189 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [18/Sep/2024 13:43:27] "POST /parse-logs HTTP/1.1" 200 -
