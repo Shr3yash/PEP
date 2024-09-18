@@ -1,0 +1,51 @@
+{
+    "start_indicator": "JobId: Process_Start1",
+    "end_indicator": "JobId: Process_End1",
+    "load": "1000",
+    "average_sequence_peak": "20",
+    "time_metrics": "milli seconds",
+    "collection": [
+        {
+            "file_location": "file1",
+            "sequence_peak": "16",
+            "parsed_data": [
+                {
+                    "id": "1",
+                    "time_stamp": "2024-09-11 01:00:00,000",
+                    "duration": "7"
+                },
+                {
+                    "id": "2",
+                    "time_stamp": "2024-09-11 01:00:00,000",
+                    "duration": "16"
+                },
+                {
+                    "id": "2",
+                    "time_stamp": "2024-09-11 01:00:00,000",
+                    "duration": "16"
+                }
+            ]
+        },
+        {
+            "file_location": "file1",
+            "sequence_peak": "25",
+            "parsed_data": [
+                {
+                    "id": "1",
+                    "time_stamp": "2024-09-11 01:00:00,000",
+                    "duration": "9"
+                },
+                {
+                    "id": "2",
+                    "time_stamp": "2024-09-11 01:00:00,000",
+                    "duration": "26"
+                },
+                {
+                    "id": "2",
+                    "time_stamp": "2024-09-11 01:00:00,000",
+                    "duration": "55"
+                }
+            ]
+        }
+    ]
+}
