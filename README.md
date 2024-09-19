@@ -6,11 +6,7 @@
 # PEP Web Application
 Welcome to the PEP Web Application repository! This project is built using Oracle JET and follows modern web development practices. Below you'll find instructions on how to set up and contribute to the project.
 
-![image](https://github.com/user-attachments/assets/3ab60d0e-a608-4fc1-b432-00cf3bde527c)
 
-![image](https://github.com/user-attachments/assets/b20efe02-9322-4ec4-bb4f-36a610e4ff54)
-
-![image](https://github.com/user-attachments/assets/be13c8a6-d542-4f58-83fe-5dcd24bc0d96)
 
 ## Getting Started
 
@@ -123,6 +119,11 @@ For any questions or support, please reach out to the project maintainers throug
 Feel free to adjust any details or add any additional information relevant to the project or repository.
 
 ---
+![image](https://github.com/user-attachments/assets/3ab60d0e-a608-4fc1-b432-00cf3bde527c)
+
+![image](https://github.com/user-attachments/assets/b20efe02-9322-4ec4-bb4f-36a610e4ff54)
+
+![image](https://github.com/user-attachments/assets/2fbddcb8-6c29-4540-9adf-273dcba51996)
 
 ![image](https://github.com/user-attachments/assets/3ea25a91-3d4c-49b4-b337-3611c4b7a142) ©
 
