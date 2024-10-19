@@ -6,7 +6,13 @@
 # PEP Web Application
 Welcome to the PEP Web Application repository! This project is built using Oracle JET and follows modern web development practices. Below you'll find instructions on how to set up and contribute to the project.
 
+## Introduction
 
+PEP (Performance Evaluation & Prediction) is a powerful tool designed to deliver critical insights into a product's performance while anticipating future challenges.
+
+In today's fast-paced market, performance is vital; it significantly influences the time and resources necessary for successful operation. Failing to improve performance can result in hefty revenue losses. This is especially pertinent in our AI-driven landscape.
+
+PEP not only assesses and highlights areas for performance enhancement but also forecasts how the product might react in various scenarios. Project managers, developers, customer support teams, sales consultants, and others can leverage this tool to dive deep into data, make informed predictions, and produce impactful reports. Embrace PEP to safeguard your product’s success!
 
 ## Getting Started
 
